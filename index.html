@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Егор сыр!</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="i">
+        <img src="Vasilisa.jpg" alt="Тут егор">
+    </div>
+    <h1>Почему Егор обмазан в сыре?</h1>
+    <div class="par">
+        <ol>
+            <h2><li>У него складки</li></h2>
+        </ol>
+        <img src="tol.jpg" alt="он сука толстый">
+        <img src="Ys.jpg" alt="Пиздец">
+    </div>
+    <div class="krut">
+        <img src="grok.jpg" alt="Тут редиска">
+    </div>
+    <div class="huis-wrapper">
+        <div class="huis" onclick="openDialog()">
+            <img src="Hui.png" alt="писька">
+        </div>
+        <dialog id="myDialog">
+            <div id="dialogContent">
+                <h2 id="questionText"></h2>
+                <input type="text" id="answerInput" placeholder="Твой ответ...">
+                <div id="resultText"></div>
+                <div class="dialog-buttons">
+                    <button onclick="checkAnswer()">Ответить</button>
+                    <button onclick="closeDialog()">Закрыть</button>
+                </div>
+            </div>
+        </dialog>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
